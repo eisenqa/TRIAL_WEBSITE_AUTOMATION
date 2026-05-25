@@ -19,7 +19,7 @@ test.afterEach(async ({ page }, testInfo) => {
     }
 });
 
-//valid credentials here
+//valid credentials 
 
 test('correct credentials', async ({ page }) => {
 
@@ -47,7 +47,7 @@ test('correct credentials', async ({ page }) => {
 });
 
 
-// invalid credentials here
+// invalid credentials
 
 test('invalid credentials', async ({ page }) => {
 
