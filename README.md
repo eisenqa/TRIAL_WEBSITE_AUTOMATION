@@ -6,3 +6,22 @@ I have basic hands-on experience with tools like Playwright and Postman, and I a
 I also completed my OJT at the PNP office, where I gained valuable experience in validating information, handling biometric-related tasks, troubleshooting computers, and supporting users with technical issues. This experience helped me strengthen my attention to detail, communication skills, and problem-solving abilities.
 
 My goal is to grow further in the QA field and become proficient in both manual and automation testing, contributing to building reliable and high-quality software systems.
+
+🏢 Experience
+
+On-the-Job Training – Philippine National Police (PNP)
+During my internship, I was exposed to real-world administrative and technical tasks, including:
+
+Validating and encoding user information
+Assisting in biometric-related processes
+Troubleshooting hardware and software issues
+Supporting users with system navigation
+Performing basic technical support tasks
+Communicating with different users in a professional environment
+
+This experience helped me develop strong analytical thinking, adaptability, and technical troubleshooting skills, which are important in QA roles.
+
+Tools & Technologies
+Playwright – Basic automation testing
+Postman – API testing
+Selestorhub - XPATH and CSS Locator
