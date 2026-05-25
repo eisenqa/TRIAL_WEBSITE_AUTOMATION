@@ -20,7 +20,7 @@ test('correct credentials', async ({ page }) => {
     // Open website
     await page.goto('https://opensource-demo.orangehrmlive.com/web/index.php/auth/login');
 
-    // Verify login page
+    // login page
     const loginText = page.locator("//h5[normalize-space()='Login']");
     await expect(loginText).toBeVisible();
 
@@ -38,11 +38,11 @@ test('correct credentials', async ({ page }) => {
     // Verify dashboard
     await expect(page).toHaveURL(/dashboard/);
 
-    // Open attendance (WAIT FIX)
+    // Open attendance
     const attendanceBtn = page.locator("//button[contains(@class,'orangehrm-attendance-card-action')]");
     await attendanceBtn.click();
 
-    // Open calendar and clock (WAIT FIX)
+    // Open calendar and clock
     const calendarIcon = page.locator(".oxd-icon.bi-calendar.oxd-date-input-icon");
     await calendarIcon.waitFor({ state: 'visible' });
     await calendarIcon.click();
@@ -51,7 +51,7 @@ test('correct credentials', async ({ page }) => {
     await clockIcon.waitFor({ state: 'visible' });
     await clockIcon.click();
 
-    // Check current hour
+    // Check time
     const hour = new Date().getHours();
 
     if (hour < 12) {
